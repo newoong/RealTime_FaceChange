@@ -1,0 +1,27 @@
+python train.py --batch_size 4 \
+--crop_size 512 \
+--dataroot /home/B811176/ganzi/ffhq_cartoon_512 \
+--name ffhq_cartoon_512_pix2pix \
+--dataset_mode aligned \
+--direction AtoB \
+--epoch_count 1 \
+--gan_mode lsgan \
+--init_type normal \
+--load_size 512 \
+--lr 0.0002 \
+--model pix2pix \
+--n_epochs 400 \
+--n_epochs_decay 100 \
+--n_layers_D 3 \
+--ndf 64 \
+--ngf 64 \
+--netD basic \
+--netG unet_256 \
+--norm batch \
+--preprocess resize_and_crop \
+--rotate_perspective \
+--squeeze 4 \
+--activation swish \
+--print_freq 1000 \
+--save_epoch_freq 25 \
+--lr_decay_iters 1000
