@@ -7,6 +7,7 @@ Real Time Face Toonify with SE-pix2pix
   ##### -> VToonify 이용(VToonify/vtoonify_generate.ipynb 실행)
   ##### VToonify/checkpoint 내 [face parser & encoder model](https://drive.google.com/drive/folders/117azv6pQ89KzX9p4i6lalAHEKCdtkrfo?usp=sharing) 저장 필요
   ##### [ffhq model 및 VToonify 예시 모델들](https://drive.google.com/drive/folders/196tG3ai-rzC-T7RZz_ZBCWMnFLUyJ82U?usp=sharing)
+  ##### [Original VToonify Repositotry](https://github.com/williamyang1991/VToonify)
 
 ## Problem
 #### Toonify, StyleGAN2 모델 등을 실시간에 바로 차용 -> face mapping & face align등에 많은 시간 소요 -> 실시간 구현 x
