@@ -4,10 +4,10 @@ Real Time Face Toonify with SE-pix2pix
 ## Flow
   ![image](https://github.com/newoong/RealTime_FaceChange/assets/94604584/da0d4691-614a-4e34-a7d4-89b2968009b7)
   ##### FFHQ StyleGAN & Toonify Model을 이용하여 pair dataset 생성 필요 (3000~5000장)
-  ##### -> VToonify 이용(VToonify/vtoonify_generate.ipynb 실행)
-  ##### VToonify/checkpoint 내 [face parser & encoder model](https://drive.google.com/drive/folders/117azv6pQ89KzX9p4i6lalAHEKCdtkrfo?usp=sharing) 저장 필요
-  ##### [ffhq model 및 VToonify 예시 모델들](https://drive.google.com/drive/folders/196tG3ai-rzC-T7RZz_ZBCWMnFLUyJ82U?usp=sharing)
-  ##### [Original VToonify Repositotry](https://github.com/williamyang1991/VToonify)
+  ##### 1. [Original VToonify Repositotry](https://github.com/williamyang1991/VToonify) -> git clone here
+  ##### 2. Download [face parser & encoder model](https://drive.google.com/drive/folders/117azv6pQ89KzX9p4i6lalAHEKCdtkrfo?usp=sharing) in VToonify/checkpoint
+  ##### 3. Download [ffhq model & VToonify pretrained models](https://drive.google.com/drive/folders/196tG3ai-rzC-T7RZz_ZBCWMnFLUyJ82U?usp=sharing)
+  ##### 4. run vtoonify_generate.ipynb
 
 ## Problem
 #### Toonify, StyleGAN2 모델 등을 실시간에 바로 차용 -> face mapping & face align등에 많은 시간 소요 -> 실시간 구현 x
